@@ -1,0 +1,18 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+.flex-item{
+    flex:1 5 50%;
+    height: 600px;
+    border: 1px solid black;
+}
+.grabber{
+    width:10px;
+}
+.grabber:hover{
+    cursor:e-resize;
+}
+.side-panel{
+    background-color: lightgray;  
+}
